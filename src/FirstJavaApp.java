@@ -10,6 +10,6 @@ public class FirstJavaApp {
         customer.setInterests(Arrays.asList("coding"));
 
         System.out.println(customer.getName() + " loves " + customer.getInterests().get(0));
-    
+
     }
 }
