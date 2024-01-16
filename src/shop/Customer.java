@@ -5,14 +5,16 @@ import java.util.List;
 public class Customer {
     private String name;
     private List<String> interests;
+    private Address address;
 
     public Customer() {
 
     }
 
-    public Customer(String name, List<String> interests){
+    public Customer(String name, List<String> interests, Address address){
         this.name = name;
         this.interests = interests;
+        this.address = address;
     }
 
     public void returnItem(String item){
